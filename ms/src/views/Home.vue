@@ -5,6 +5,8 @@
 		<demos>我的作品</demos>
 		<works></works>
 		<works1></works1>
+		<demos>我的技能</demos>
+		<skill></skill>
 		
 		<div class="crx"></div>
 		<router-view/>
@@ -16,6 +18,7 @@
 	import Demos from '../components/Demos.vue'
 	import Works from '../mines/Works.vue'
 	import Works1 from '../mines/Works1.vue'
+	import Skill from '../mines/Skill.vue'
 
 	export default {
 		data() {
@@ -26,6 +29,7 @@
 			Demos,
 			Works,
 			Works1,
+			Skill
 
 		},
 	}
