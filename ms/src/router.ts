@@ -16,6 +16,7 @@ import Demos from './components/Demos.vue';
 
 //引入mines
 import Works from './mines/Works.vue';
+import Works1 from './mines/Works1.vue';
 
 
 
@@ -57,6 +58,10 @@ export default new Router({
       path: '/works',
       name: 'works',
       component: Works,
+    },{
+      path: '/works1',
+      name: 'works1',
+      component: Works1,
     },
   ],
 });

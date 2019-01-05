@@ -1,9 +1,10 @@
 <template>
 	<div class="home">
 		<navs></navs>
-		<img class="animated" src="../../../Mine/img/banner1.jpg" />
+		<img class="animated" src="../../public/img/banner1.jpg" />
 		<demos>我的作品</demos>
 		<works></works>
+		<works1></works1>
 		
 		<div class="crx"></div>
 		<router-view/>
@@ -14,6 +15,7 @@
 	import Navs from '../components/Navs.vue'
 	import Demos from '../components/Demos.vue'
 	import Works from '../mines/Works.vue'
+	import Works1 from '../mines/Works1.vue'
 
 	export default {
 		data() {
@@ -22,7 +24,8 @@
 		components: {
 			Navs,
 			Demos,
-			Works
+			Works,
+			Works1,
 
 		},
 	}
