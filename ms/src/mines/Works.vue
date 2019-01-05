@@ -2,7 +2,7 @@
 	<div class="works">
 		<div class="item">
 			<div class="its">
-				
+				<img src="../../../Mine/img/1.jpg"/>
 			</div>
 		</div>
 	</div>
