@@ -17,27 +17,27 @@
 				 isActive: true,
 				nav:[{
 					id:5,
-					to:'',
+					to:'Me',
 					fa:'fa-phone',
 					title:'联系'
 				},{
 					id:4,
-					to:'',
+					to:'About',
 					fa:'fa-clone',
 					title:'关于'
 				},{
 					id:3,
-					to:'',
+					to:'Mine',
 					fa:'fa-line-chart',
 					title:'经历'
 				},{
 					id:2,
-					to:'',
+					to:'production',
 					fa:'fa-diamond',
 					title:'作品'
 				},{
 					id:1,
-					to:'',
+					to:'/',
 					fa:'fa-home',
 					title:'首页'
 				},]
@@ -78,7 +78,7 @@
 		color: #fff;
 		margin-left: 20px;
 	}
-	.isActive{
+	.navs .click a.router-link-exact-active {
 		color: #DE898B;
 	}
 	

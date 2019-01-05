@@ -39,6 +39,7 @@
 		margin-top: 40px;
 		width: 100%;
 		height: auto;
+		box-sizing: border-box;
 	}
 	
 	.home img:hover {

@@ -2,6 +2,10 @@ import Vue from 'vue';
 import Router from 'vue-router';
 //引入views
 import Home from './views/Home.vue';
+import Production from './views/Production.vue';
+import Mine from './views/Mine.vue';
+import About from './views/About.vue';
+import Me from './views/Me.vue';
 
 
 
@@ -25,6 +29,22 @@ export default new Router({
       path: '/',
       name: 'home',
       component: Home,
+    },{
+      path: '/production',
+      name: 'production',
+      component: Production,
+    },{
+      path: '/mine',
+      name: 'mine',
+      component: Mine,
+    },{
+      path: '/about',
+      name: 'about',
+      component: About,
+    },{
+      path: '/me',
+      name: 'me',
+      component: Me,
     },{
       path: '/navs',
       name: 'navs',

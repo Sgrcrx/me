@@ -1,10 +1,9 @@
 <template>
 	<div class="works">
-		<div class="left">
-			
-		</div>
-		<div class="right">
-			
+		<div class="item">
+			<div class="its">
+				
+			</div>
 		</div>
 	</div>
 </template>
@@ -19,6 +18,9 @@
 
 <style>
 	.works{}
-	.works .left{}
-	.works .right{}
+	.works .item{}
+	.works .item .its{}
+	.works .item{}
+	
+	
 </style>
