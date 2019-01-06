@@ -5,6 +5,16 @@
 				<img :src="row.image" class="animated" />
 			</div>
 		</div>
+		<div class="item">
+			<div class="its" v-for="(item,index) in images">
+				<img :src="item.image" class="animated" />
+			</div>
+		</div>
+		<div class="item">
+			<div class="its" v-for="(its,i) in images1">
+				<img :src="its.image" class="animated" />
+			</div>
+		</div>
 
 	</div>
 </template>
@@ -21,7 +31,25 @@
 					image: require('../../public/img/me02.jpg'),
 				}, {
 					image: require('../../public/img/m7.jpg'),
-				}]
+				}],
+				images: [{
+					image: require('../../public/img/m1.jpg'),
+				}, {
+					image: require('../../public/img/m2.jpg'),
+				}, {
+					image: require('../../public/img/m3.jpg'),
+				}, {
+					image: require('../../public/img/m4.jpg'),
+				}],
+				images1: [{
+					image: require('../../public/img/m5.jpg'),
+				}, {
+					image: require('../../public/img/m6.jpg'),
+				}, {
+					image: require('../../public/img/m8.jpg'),
+				}, {
+					image: require('../../public/img/m9.jpg'),
+				}],
 
 			};
 		},
@@ -31,6 +59,7 @@
 <style>
 	.works1 {
 		width: 100%;
+		margin-top: 50px;
 	}
 	
 	.works1 .item {

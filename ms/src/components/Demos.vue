@@ -18,7 +18,7 @@
 		height: 60px;
 		text-align: center;
 		line-height: 60px;
-		background-color: #000;
+		background-color: #252B44;
 		margin-top: 40px;
 		color: #fff;
 	}

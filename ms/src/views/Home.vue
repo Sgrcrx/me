@@ -1,13 +1,13 @@
 <template>
 	<div class="home">
 		<navs></navs>
-		<img class="animated" src="../../public/img/banner1.jpg" />
-		<demos>我的作品</demos>
-		<works></works>
-		<works1></works1>
-		<demos>我的技能</demos>
-		<skill></skill>
-		
+		<img class="animated infinite w" src="../../public/img/banner.png" />
+		<demos>我的信息</demos>
+		<informations></informations>
+		<introductions></introductions>
+		<demos class='item1'>我的证书</demos>
+		<certificate></certificate>
+		<footers></footers>
 		<div class="crx"></div>
 		<router-view/>
 	</div>
@@ -15,10 +15,12 @@
 
 <script>
 	import Navs from '../components/Navs.vue'
+	import Footers from '../components/Footers.vue'
 	import Demos from '../components/Demos.vue'
-	import Works from '../mines/Works.vue'
-	import Works1 from '../mines/Works1.vue'
-	import Skill from '../mines/Skill.vue'
+	import Informations from '../mines/Informations.vue'
+	import Introductions from '../mines/Introductions.vue'
+	import Certificate from '../mines/Certificate.vue'
+
 
 	export default {
 		data() {
@@ -26,11 +28,11 @@
 		},
 		components: {
 			Navs,
+			Footers,
 			Demos,
-			Works,
-			Works1,
-			Skill
-
+			Informations,
+			Introductions,
+			Certificate
 		},
 	}
 </script>
@@ -42,18 +44,29 @@
 		box-sizing: border-box;
 	}
 	
-	.home img {
-		margin-top: 40px;
+	.home .w {
+		margin-top: 100px;
 		width: 100%;
 		height: auto;
 		box-sizing: border-box;
 	}
 	
+	.home img{
+		margin-top: 40px;
+		width: 100%;
+		height: auto;
+		box-sizing: border-box;
+	}
+	.item1 {
+		background-color: #fff;
+		color: #000;
+	}
 	.home img:hover {
 		-webkit-animation-name: pulse;
 		animation-name: pulse;
 	}
-	.crx{
-		height: 400px;
-	}
+	
+	
+	
+
 </style>

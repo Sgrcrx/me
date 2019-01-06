@@ -30,6 +30,9 @@
 <style>
 	.works {
 		width: 100%;
+		background-color: #fff;
+		padding-bottom: 20px;
+		margin-top: 40px;
 	}
 	
 	.works .item {
