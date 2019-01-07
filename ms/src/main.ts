@@ -3,9 +3,36 @@ import App from './App.vue';
 import router from './router';
 import store from './store';
 import './registerServiceWorker';
-import echarts from "echarts";
-import Schart from 'vue-schart';
 
+//ele组件引入
+import ElementUI from 'element-ui';
+import 'element-ui/lib/theme-chalk/index.css';
+import axios from "axios";
+//import qs from "qs";
+
+
+
+//vue 格式话时间的过滤函数
+//Vue.filter('timeFrmate',timestamp=>{
+//	
+//	let time = new Date(timestamp *1000);
+//	let y = time.getFullYear();
+//	let M = time.getMonth();
+//	let d = time.getDate();
+//	let h = time.getHours();
+//	let m = time.getMinutes();
+//	let s = time.getSeconds();
+//	
+//	//显示格式化
+//	h = h < 10 ? ('0' + h) : h;
+//	m = m < 10 ? ('0'+ m) : m;
+//	s = s < 10 ?('0' + s) : s;
+//	
+//	return y + '-' + M + '-' + d + ' ' + h + ':' + m + ':' + s;
+//})
+
+
+Vue.use(ElementUI);
 Vue.config.productionTip = false;
 
 new Vue({

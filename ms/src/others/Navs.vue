@@ -1,5 +1,5 @@
 <template>
-	<div class="navs">
+	<div class="navs clear">
 			<div class="show">你好，欢迎光临陈融炫的个人页！</div>
 			<div class="click" v-for="(item,index) in nav">
 				<router-link :to='item.to' :class='{active:isActive}'>
@@ -49,13 +49,14 @@
 </script>
 
 <style>
-	
-	.navs{
-		width: 100%;
-		height: 60px;
+	.clear:after{
 		display: block;
 		content: '';
 		clear: both;
+	}
+	.navs{
+		width: 100%;
+		height: 60px;
 		background-color: #252B44;
 		line-height: 60px;
 		color: #fff;
@@ -68,7 +69,7 @@
 	}
 	.navs .show{
 		float: left;
-		margin-left: 6%;
+		margin-left: 80px;
 		margin-right: 120px;
 		box-sizing: border-box;
 	}
@@ -76,7 +77,7 @@
 	
 	.navs .click{
 		float: left;
-		margin-right: 6%;
+		margin-right: 80px;
 		box-sizing: border-box;
 	}
 	.navs .click a{
@@ -96,7 +97,7 @@
 	.navs .phone{
 		position: absolute;
 		top: 0px;
-		right: 6%;
+		right: 80px;
 	}
 	.navs .phone i{
 		margin-right: 8px;

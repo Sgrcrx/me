@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "echarts": "^4.2.0-rc.2",
+    "element-ui": "^2.4.11",
     "register-service-worker": "^1.5.2",
     "swiper": "^4.4.6",
     "vue": "^2.5.21",
@@ -30,6 +31,7 @@
     "@vue/cli-plugin-unit-mocha": "^3.2.0",
     "@vue/cli-service": "^3.2.0",
     "@vue/test-utils": "^1.0.0-beta.20",
+    "babel-plugin-component": "^1.1.1",
     "chai": "^4.1.2",
     "lint-staged": "^8.1.0",
     "node-sass": "^4.9.0",

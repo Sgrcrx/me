@@ -1,6 +1,5 @@
 <template>
 	<div class="production">
-		<navs></navs>
 		<div class="images">
 			<img class="animated infinite w" src="../../public/img/fly.jpg" />
 		</div>
@@ -25,16 +24,15 @@
 		
 		<div class="says">到此结束，感谢你的欣赏！</div>
 		
-		<footers></footers>
+
 		<div class="crx"></div>
 		<router-view/>
 	</div>
 </template>
 
 <script>
-	import Navs from '../components/Navs.vue'
+
 	import Demos from '../components/Demos.vue'
-	import Footers from '../components/Footers.vue'
 	import Works from '../mines/Works.vue'
 	import Works1 from '../mines/Works1.vue'
 	import Works2 from '../mines/Works2.vue'
@@ -43,12 +41,12 @@
 			return {};
 		},
 		components: {
-			Navs,
+
 			Works,
 			Works1,
 			Works2,
 			Demos,
-			Footers,
+
 
 		},
 	}
@@ -65,7 +63,6 @@
 	}
 	
 	.production .images .w {
-		margin-top: 100px;
 		width: 100%;
 		height: auto;
 		box-sizing: border-box;

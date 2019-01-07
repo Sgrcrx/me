@@ -1,57 +1,63 @@
 <template>
-	<div class="introductions">
-		<div class="aside">
-			<asides></asides>
-		</div>
-		<div class="content">
-			<fei-fan></fei-fan>
-		</div>
-		</router-view>
-	</div>
+	<el-container id="app">
+		<el-aside width="220px">
+			<admin-aside></admin-aside>
+		</el-aside>
+		<el-container>
+			<el-header>
+				<admin-header></admin-header>
+				<tabs></tabs>
+			</el-header>
+			<el-main>
+				<keep-alive>
+					<router-view/>
+				</keep-alive>
+			</el-main>
+			<el-footer>© 2018.12.14  陈融炫</el-footer>
+		</el-container>
+	</el-container>
+
 </template>
 
 <script>
-	import Asides from '../components/Asides.vue'
-	import FeiFan from '../introductions/FeiFan.vue';
-	
-	
-	export default{
-		data(){
-			return{};
-		},components: {
-			Asides,
-			FeiFan
-
+	import AdminAside from '@/components/Aside'
+	import AdminHeader from '@/components/Header'
+	import Tabs from '@/components/Tabs.vue'
+	export default {
+		data() {
+			return {};
 		},
-	}
+		methods: {},
+		components: {
+			AdminAside,
+			AdminHeader,
+			Tabs
+		},
+
+	};
 </script>
 
 <style>
-	.introductions{
-		box-sizing: border-box;
+	html,
+	body,
+	#app {
+		margin: 0;
+		height: 100%;
 		width: 100%;
-		height: 100%;
+		background-color: #f2f2f2;
 	}
-	.clear:after{
-		display: block;
-		content: "";
-		clear: both;
+	
+	.el-header {
+		height:100px!important;
+		background-color: #FFFFFF;
 	}
-	.introductions .aside{
-		box-sizing: border-box;
-		width: 100px;
-		height: 80%;
-		position: fixed;
-		float: left;
-		z-index: 9999;
-		background-color: rgba(155,155,155,0.6);
+	
+	.el-aside {
+		background-color: #20222A;
 	}
-	.introductions .content{
-		height: 100%;
-		/*width: 100%;*/
-		/*margin: 0px 100px;*/
-		box-sizing: border-box;
-		/*width: 80%;*/
-		/*background-color: skyblue;*/
+	
+	.el-footer {
+		background-color: #FFFFFF;
+		line-height: 60px;
 	}
 </style>

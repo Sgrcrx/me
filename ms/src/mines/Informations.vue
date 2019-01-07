@@ -64,15 +64,17 @@
 	.informations {
 		background-color: #fff;
 		margin-top: 40px;
+		/*position: relative;*/
 		box-sizing: border-box;
 	}
 	
 	.informations .box{
 		box-sizing: border-box;
 		padding: 20px;
+		/*background-color: saddlebrown;*/
 	}
 	.informations .box div{
-		margin: 20px 50px;
+		margin: 20px 0px;
 	}
 	.informations .box span{
 		margin-right: 50px;

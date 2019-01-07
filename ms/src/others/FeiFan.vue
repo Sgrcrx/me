@@ -43,13 +43,13 @@
 						<li class="left"><img src="../assets/img/g1.png" /></li>
 						<li class="left"><img src="../assets/img/g2.png" /></li>
 						<li class="left"><img src="../assets/img/g3.png" /></li>
-						<li class="right"><img src="../assets/img/g4.png" /></li>
+						<list class="right"><img src="../assets/img/g4.png" /></list>
 					</ul>
 					<ul class="clear">
 						<li class="left"><img src="../assets/img/g5.png" /></li>
 						<li class="left"><img src="../assets/img/g6.png" /></li>
 						<li class="left"><img src="../assets/img/g7.png" /></li>
-						<li class="right"><img src="../assets/img/g8.png" /></li>
+						<list class="right"><img src="../assets/img/g8.png" /></list>
 					</ul>
 					<button class="bun animated bounce infinite">申请免费试学</button>
 				</div>
@@ -243,28 +243,21 @@
 			</div>
 			<!--floor-6 end-->
 			<div class="floor floor-7">
-				
 				<div class="jiantou">
-					<div class="cs"></div>
 					<div class="title"><img src="../assets/img/text06.png" /></div>
-					<p class="text">众多毕业学员给学校和老师送来锦旗，这是对老师们努力付出的认可与回报，<br />更让我们感觉到从事教育工作的一份沉重责任</p>
+					<p class="text">众多毕业学员给学校和老师送来锦旗，这是对老师们努力付出的认可与回报，更让我们感觉到从事教<br />育工作的一份沉重责任</p>
+					<div class="tupian clear">
+						<a href="#" class="left"><img src="../assets/img/left.png" /></a>
+						<a href="#" class="left"><img src="../assets/img/ds01.png" /></a>
+						<a href="#" class="left"><img src="../assets/img/ds02.png" /></a>
+						<a href="#" class="left"><img src="../assets/img/ds03.png" /></a>
+						<a href="#" class="left"><img src="../assets/img/ds04.png" /></a>
+						<a href="#" class="left"><img src="../assets/img/ds05.png" /></a>
+						<a href="#" class="left"><img src="../assets/img/ds06.png" /></a>
+						<a href="#" class="right"><img src="../assets/img/right.png" /></a>
+					</div>
+					<button class="bun animated bounce infinite">与名师对话</button>
 				</div>
-				<div class="box">
-					<a href="#"><img src="../assets/img/ds01.png" /></a>
-					<a href="#"><img src="../assets/img/ds02.png" /></a>
-					<a href="#"><img src="../assets/img/ds03.png" /></a>
-					<a href="#"><img src="../assets/img/ds04.png" /></a>
-					<a href="#"><img src="../assets/img/ds05.png" /></a>
-					<a href="#"><img src="../assets/img/ds06.png" /></a>
-				</div>
-							
-					
-				<div class="al">
-					<a class="al-le" href="#"><img src="../assets/img/left.png" /></a>
-					<a class="al-ar" href="#"><img src="../assets/img/right.png" /></a>
-				</div>
-				<button class="bun animated bounce infinite">与名师对话</button>
-				
 			</div>
 			<!--floor-7 end-->
 			<div class="floor floor-8">
@@ -427,9 +420,9 @@
 
 <style scoped="scoped">
 	.feifan {
+		box-sizing: border-box;
 		width: 100%;
 		height: 100%;
-		box-sizing: border-box;
 	}
 	*{ margin: 0; padding: 0; font-size: 24px; font-family: "微软雅黑" arial;}
 a{ text-decoration: none; color: #666;}
@@ -438,7 +431,7 @@ ul,li{ list-style: none; margin: 0; padding: 0;}
 .right{ float: right;}
 .clear:after{ display: block; content: ""; clear: both;}
 .header{ color: #2c3e50;font-size: 48px; line-height: 32px;}
-.w{ width: 100%; margin: 0 auto;}
+.w{ width: 1200px; margin: 0 auto;}
 .floor{ text-align: center; margin: 0 auto;}
 .bun{ width: 329px; height: 79px; background-color: #f04849; border-radius: 40px; font-size: 30px; color: #fff; margin-top: 38px;/* margin-bottom: 38px;*/ border: 0; outline: none; cursor: pointer;}
 .text{ color: #555; margin-top: 27px;}
@@ -460,13 +453,12 @@ ul,li{ list-style: none; margin: 0; padding: 0;}
 .floor-1 .bun{ margin-bottom: 57px;}
 /*floor-1 end*/
 .floor-2 .title{ margin-top: 80px;}
-.floor-2 ul li{ margin-right: 17px; margin-top: 60px;}
-.floor-2 ul li:last-child{ margin-right: 0px;}
+.floor-2 ul li{ margin-right: 45px; margin-top: 60px;}
+.floor-2 ul li:last-child{ margin-right: 0;}
 /*floor-2 end*/
 .floor-3{ margin-top: 76px;}
-.floor-3 ul li{ margin-right: 14px; box-sizing: border-box; width: 24%; height: auto;}
-.floor-3 ul li img{ width: 100%;height: auto; box-sizing: border-box;}
-.floor-3 ul li.right{ margin-right: 0;}
+.floor-3 ul li{ margin-right: 26px;}
+.floor-3 ul li:last-child{ margin-right: 0;}
 .floor-3 .cc01{ margin-bottom: 28px; margin-top: 75px;}
 /*floor-3 end*/
 .floor-4{ margin-top: 59px;}
@@ -485,97 +477,75 @@ ul,li{ list-style: none; margin: 0; padding: 0;}
 .floor-5 title{ margin-bottom: 28px;}
 .floor-5 .text{ margin-bottom: 34px;}
 .floor-5 ul{ margin-top: 17px;}
-.floor-5 ul li{ margin-right: 21px; width: 32%;}
-.floor-5 ul li img{ width: 100%; height: auto;}
+.floor-5 ul li{ margin-right: 26px;}
 .floor-5 ul li:last-child{ margin-right: 0;}
 .floor-5 .bun{ margin-bottom: 67px;}
 /*floor-5 end*/
-.floor-6 .crx01{ background-image: url(../assets/img/bg01.png); background-repeat: no-repeat; background-position: center top; height: 800px;}
+.floor-6 .crx01{ background-image: url(../assets/img/bg01.png); background-repeat: no-repeat; background-position: center top; height: 860px;}
 .floor-6 .title{ padding-top: 56px; margin-bottom: 21px;}
 .floor-6 .text{ margin-bottom: 51px;}
-.floor-6 ul{ margin-top: 8px; display: flex; display: -webkit-flex;}
-.floor-6 ul li{ flex: 1; margin-right: 20px; width: 32%; box-sizing: border-box;}
-.floor-6 ul li img{ width: 100%; height: 100%;}
+.floor-6 ul{ margin-top: 8px;}
+.floor-6 ul li{ margin-right: 13px;}
 .floor-6 ul li:last-child{ margin-right: 0;}
 .floor-6 .bun{ margin-bottom: 41px;}
 /*floor-6 end*/
-
-.floor-7{ background-image: url(../assets/img/bg02.png); background-repeat: no-repeat; background-position: center top; box-sizing: border-box;}
-.floor-7 .cs{display: block; content: ""; box-sizing: border-box; padding-top: 56px;}
-.floor-7 .jiantou{}
-.floor-7 .jiantou .title{}
-.floor-7 .jiantou .title img{}
-.floor-7 .jiantou .text{ color: #fff; margin-bottom: 51px;}
-.floor-7 .box{display: flex; display: -webkit-flex; box-sizing: border-box; padding: 0px 40px;}
-.floor-7 .box a{flex: 1; width: 100%;}
-.floor-7 .box a img{ width: 98%; height: auto; box-sizing: border-box; padding: 0px 4px;}
-.floor-7 .al{position: relative;}
-.floor-7 .al .al-le{ position: absolute; top: -200px; left: 0px;}
-.floor-7 .al .al-ar{position: absolute; top: -200px; right: 0px;}
-.floor-7 .al a img{}
-
-
+.floor-7{ background-image: url(../assets/img/bg02.png); background-repeat: no-repeat; background-position: center top;}
+.floor-7 .title{ padding-top: 51px;}
+.floor-7 .text{ color: #fff; margin-bottom: 57px;}
+.jiantou{ width: 1340px; margin: 0 auto;}
+.floor-7 .jiantou a{ padding-right: 12px;}
+.floor-7 .jiantou a:first-child{ padding-top: 209px; padding-right: 29px;}
+.floor-7 .jiantou a:last-child{ padding-top: 209px;}
 .floor-7 .bun{ margin-bottom: 32px;}
 /*floor-7 end*/
 .floor-8 .title{ margin-top: 75px;}
 .floor-8 .text{ margin-bottom: 58px;}
-.floor-8 .crx02{ display: flex; display: -webkit-flex;}
-.floor-8 .crx02 a{ flex: 1;}
-.floor-8 .cc03{ display: flex; display: -webkit-flex;}
-.floor-8 .cc03 a{ flex: 1;}
-.floor-8 .cc04{display: flex; display: -webkit-flex;}
-.floor-8 .cc04 a{flex: 1;}
+.floor-8 .cc03 a{ padding-right: 33px;}
+.floor-8 .cc03 a:last-child{ padding-right: 0;}
+.floor-8 .cc04 a{ padding-right: 172px;}
+.floor-8 .cc04 a:last-child{ padding-right: 0; margin-left: 0;}
+.floor-8 .w{ position: relative;}
 .cc05{ position: absolute; bottom: 10px; left: 50px;}
-
+.floor-8 .crx02 a{ margin-right: 18px; margin-top: 22px;}
+.floor-8 .crx02 a:last-child{ margin-right: 0;}
 /*floor-8 end*/
-.floor-9{ background-color: #e8fbf7; margin-top: 48px; box-sizing: border-box; width: 100%; height: auto;}
+.floor-9{ background-color: #e8fbf7; margin-top: 48px;}
 .floor-9 .title{ padding-top: 58px;}
-.floor-9 .title img{}
 .floor-9 .text{ margin-bottom: 76px;}
-.floor-9 .banner3{width: 100%; height: auto;box-sizing: border-box;}
-.floor-9 .banner3 img{width: 100%; height: auto;box-sizing: border-box;}
 .floor-9 .bun{ margin-bottom: 50px;}
 /*floor-9 end*/
-.floor-10{ margin-top: 63px; width: 100%; height: auto;box-sizing: border-box;}
-.floor-10 .title{box-sizing: border-box; width: 100%; height: auto;}
-.floor-10 .title img{box-sizing: border-box; width: 100%; height: auto;}
-.floor-10 .banner4{ width: 100%; height: auto;box-sizing: border-box;}
-.floor-10 .banner4 img{ width: 100%; height: auto;box-sizing: border-box;}
+.floor-10{ margin-top: 63px;}
 .floor-10 .text{ margin-bottom: 40px;}
 .floor-10 .bun{ margin-bottom: 48px;}
 /*floor-10 end*/
 .floor-11{ background-image: url(../assets/img/bg03.png); background-repeat: no-repeat; background-position: center top;}
 .floor-11 .title{ padding-top: 48px;}
 .floor-11 .text{ color: #fff; margin-bottom: 38px;}
-.floor-11 ul{display: flex; display: -webkit-flex;}
-.floor-11 ul li{ flex: 1;}
-.floor-11 ul li img{ width: 100%; height: 100%; box-sizing: border-box;}
+.floor-11 ul:first-of-type{ margin-bottom: 20px;}
+.floor-11 ul li{ margin-right: 23px;}
+.floor-11 ul li:last-child{ margin-right: 0;}
 .floor-11 .bun{ margin-bottom: 40px; margin-top: 24px;}
 /*floor-11 end*/
 .floor-12{ margin-top: 78px;}
-.floor-12 .banner5{width: 100%; height: 100%; box-sizing: border-box;}
-.floor-12 .banner5 img{width: 100%; height: 100%; box-sizing: border-box;}
 .floor-12 .text{ margin-bottom: 45px;}
 .floor-12 .bun{ margin-bottom: 53px;}
 /*floor-12 end*/
 .floor-13 .title{ margin-top: 10px;}
-.floor-13 .banner6{width: 100%; height: 100%; box-sizing: border-box;}
-.floor-13 .banner6 img{width: 100%; height: 100%; box-sizing: border-box;}
 .floor-13 .text{ margin-bottom: 33px;}
 .floor-13 .bun{ margin-bottom: 35px;}
 /*floor-13 end*/
 .floor-14{ background-color: #f5f5f5;}
 .floor-14 .title{ padding-top: 35px; padding-bottom: 37px;}
-.floor-14 ul{ margin-bottom: 21px; display: flex; display: -webkit-flex;}
-.floor-14 ul li{ margin-right: 32px; flex: 1;}
-.floor-14 ul li img{ width: 100%; height: auto; box-sizing: border-box;}
+.floor-14 ul{ margin-bottom: 21px;}
+.floor-14 ul li{ margin-right: 32px;}
+.floor-14 ul li:last-child{ margin-right: 0;}
 /*floor014 end*/
 .floor-15{ background-image: url(../assets/img/bg04.png); background-repeat: no-repeat; background-position: center top; margin-top: 44px;}
 .floor-15 .title{ padding-top: 48px;}
 .floor-15 .text{ color: #fff; margin-bottom: 40px;}
-.floor-15 ul{ margin-bottom: 16px; display: flex; display: -webkit-flex;}
-.floor-15 ul li{ margin-right: 12px; flex: 1;}
-.floor-15 ul li img{ width: 100%; height: auto; box-sizing: border-box;}
+.floor-15 ul{ margin-bottom: 16px;}
+.floor-15 ul li{ margin-right: 12px;}
+.floor-15 ul li:last-child{ margin-right: 0;}
 .floor-15 .bun{ margin-bottom: 53px;}
 /*floor-15 end*/
 .floor-16{ background-image: url(../assets/img/bg05.png); background-repeat: no-repeat; background-position: center top; margin-top: 43px; font-weight: bold;}

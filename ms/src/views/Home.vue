@@ -1,20 +1,19 @@
 <template>
 	<div class="home">
-		<navs></navs>
+		
 		<img class="animated infinite w" src="../../public/img/banner.png" />
 		<demos>我的信息</demos>
 		<informations></informations>
 		<demos class='item1'>我的证书</demos>
 		<certificate></certificate>
-		<footers></footers>
+		<!--<footers></footers>-->
 		<div class="crx"></div>
 		<router-view/>
 	</div>
 </template>
 
 <script>
-	import Navs from '../components/Navs.vue'
-	import Footers from '../components/Footers.vue'
+
 	import Demos from '../components/Demos.vue'
 	import Informations from '../mines/Informations.vue'
 	import Introductions from '../mines/Introductions.vue'
@@ -26,8 +25,6 @@
 			return {};
 		},
 		components: {
-			Navs,
-			Footers,
 			Demos,
 			Informations,
 			Certificate
@@ -43,7 +40,7 @@
 	}
 	
 	.home .w {
-		margin-top: 100px;
+		/*margin-top: 100px;*/
 		width: 100%;
 		height: auto;
 		box-sizing: border-box;
