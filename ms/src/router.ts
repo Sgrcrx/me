@@ -13,6 +13,7 @@ import Me from './views/Me.vue';
 import Navs from './components/Navs.vue';
 import Demos from './components/Demos.vue';
 import Footers from './components/Footers.vue';
+import Asides from './components/Asides.vue';
 
 
 //引入mines
@@ -23,6 +24,9 @@ import Skill from './mines/Skill.vue';
 import Informations from './mines/Informations.vue';
 import Introductions from './mines/Introductions.vue';
 import Certificate from './mines/Certificate.vue';
+
+//引入introductions
+import FeiFan from './introductions/FeiFan.vue';
 
 
 
@@ -65,6 +69,10 @@ export default new Router({
       name: 'footers',
       component: Footers,
     },{
+      path: '/asides',
+      name: 'asides',
+      component: Asides,
+    },{
       path: '/works',
       name: 'works',
       component: Works,
@@ -92,6 +100,10 @@ export default new Router({
       path: '/certificate',
       name: 'certificate',
       component: Certificate,
+    },{
+      path: '/feifan',
+      name: 'feifan',
+      component: FeiFan,
     },
   ],
 });

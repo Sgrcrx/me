@@ -1,27 +1,19 @@
 <template>
 	<div class="introductions">
 		<div class="aside">
-			<asides></asides>
+			
 		</div>
 		<div class="content">
-			<fei-fan></fei-fan>
+			
 		</div>
 		</router-view>
 	</div>
 </template>
 
 <script>
-	import Asides from '../components/Asides.vue'
-	import FeiFan from '../introductions/FeiFan.vue';
-	
-	
 	export default{
 		data(){
 			return{};
-		},components: {
-			Asides,
-			FeiFan
-
 		},
 	}
 </script>
@@ -42,16 +34,14 @@
 		width: 100px;
 		height: 80%;
 		position: fixed;
-		float: left;
-		z-index: 9999;
-		background-color: rgba(155,155,155,0.6);
+		background-color: rgba(155,155,155,0.3);
 	}
 	.introductions .content{
-		height: 100%;
-		/*width: 100%;*/
-		/*margin: 0px 100px;*/
+		width: 92.6%;
+		height: 100px;
+		padding: 0px 100px;
 		box-sizing: border-box;
-		/*width: 80%;*/
-		/*background-color: skyblue;*/
+		margin: 0px 100px;
+		background-color: skyblue;
 	}
 </style>

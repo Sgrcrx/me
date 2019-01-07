@@ -1,0 +1,136 @@
+*{ margin: 0; padding: 0; font-size: 24px; font-family: "微软雅黑" arial;}
+a{ text-decoration: none; color: #666;}
+ul,li{ list-style: none; margin: 0; padding: 0;}
+.left{ float: left;}
+.right{ float: right;}
+.clear:after{ display: block; content: ""; clear: both;}
+.header{ color: #2c3e50;font-size: 48px; line-height: 32px;}
+.w{ width: 1200px; margin: 0 auto;}
+.floor{ text-align: center; margin: 0 auto;}
+.bun{ width: 329px; height: 79px; background-color: #f04849; border-radius: 40px; font-size: 30px; color: #fff; margin-top: 38px;/* margin-bottom: 38px;*/ border: 0; outline: none; cursor: pointer;}
+.text{ color: #555; margin-top: 27px;}
+
+
+
+
+
+
+/*公共样式*/
+.top{ height: 74px;text-align: center; box-sizing: border-box;}
+.top .logo{ padding-top: 12px; padding-left: 10px;}
+.top .text{ padding-left: 56px; line-height: 74px; margin-top: 0;}
+.top .phone .img{ padding-top: 19px; padding-right: 18px; vertical-align: bottom;}
+.top .phone span{ padding-right: 10px; font-size: 30px; line-height: 14px;}
+.banner{ background-image: url(../img/banner01.png); background-repeat: no-repeat; background-position: center top; height: 612px;}
+/*top end*/
+.floor-1{ background-image: linear-gradient(0deg, #cbf3ee 0%, #eeeef0 100%);}
+.floor-1 .title{ padding-top: 64px;}
+.floor-1 .text{ width: 1044px; line-height: 32px;}
+.banner1{ background-image: url(../img/banner02.png); background-repeat: no-repeat; background-position: center top; height: 494px; margin-top: 11px;}
+.floor-1 .bun{ margin-bottom: 57px;}
+/*floor-1 end*/
+.floor-2 .title{ margin-top: 80px;}
+.floor-2 ul li{ margin-right: 45px; margin-top: 60px;}
+.floor-2 ul li:last-child{ margin-right: 0;}
+/*floor-2 end*/
+.floor-3{ margin-top: 76px;}
+.floor-3 ul li{ margin-right: 26px;}
+.floor-3 ul li:last-child{ margin-right: 0;}
+.floor-3 .cc01{ margin-bottom: 28px; margin-top: 75px;}
+/*floor-3 end*/
+.floor-4{ margin-top: 59px;}
+.floor-4 .banner2{ background-image: url(../img/banner03.png); background-repeat: no-repeat; background-position: center top; height: 762px; margin-bottom: 61px;}
+.floor-4 table tr td{ border-right-width: 1px; border-right-style: dashed; border-right-color: #959595; width: 580px; margin-bottom: 10px;}
+.floor-4 table tr td:last-child{ border-right-style: none;}
+.floor-4 table tr td{ line-height: 30px;}
+.floor-4 table tr td img{ height: 116px;}
+.floor-4 table tr td h4{ font-size: 14px; font-weight: normal; color: #555; padding-top: 20px; margin-bottom: 13px;}
+.floor-4 table tr td h3{ font-size: 21px; font-weight: normal; color: #473203; padding-bottom: 30px;}
+.floor-4 table tr td p{ font-size: 12px; text-align: left; top: 2px; padding-left: 20px; padding-right: 2px;}
+.floor-4 table{ margin-bottom: 39px;}
+.cc02 td p{ box-sizing: border-box;/* padding-left: 10px;*/}
+.floor-4 .bun{ margin-bottom: 63px;}
+/*floor-4 end*/
+.floor-5 title{ margin-bottom: 28px;}
+.floor-5 .text{ margin-bottom: 34px;}
+.floor-5 ul{ margin-top: 17px;}
+.floor-5 ul li{ margin-right: 26px;}
+.floor-5 ul li:last-child{ margin-right: 0;}
+.floor-5 .bun{ margin-bottom: 67px;}
+/*floor-5 end*/
+.floor-6 .crx01{ background-image: url(../img/bg01.png); background-repeat: no-repeat; background-position: center top; height: 860px;}
+.floor-6 .title{ padding-top: 56px; margin-bottom: 21px;}
+.floor-6 .text{ margin-bottom: 51px;}
+.floor-6 ul{ margin-top: 8px;}
+.floor-6 ul li{ margin-right: 13px;}
+.floor-6 ul li:last-child{ margin-right: 0;}
+.floor-6 .bun{ margin-bottom: 41px;}
+/*floor-6 end*/
+.floor-7{ background-image: url(../img/bg02.png); background-repeat: no-repeat; background-position: center top;}
+.floor-7 .title{ padding-top: 51px;}
+.floor-7 .text{ color: #fff; margin-bottom: 57px;}
+.jiantou{ width: 1340px; margin: 0 auto;}
+.floor-7 .jiantou a{ padding-right: 12px;}
+.floor-7 .jiantou a:first-child{ padding-top: 209px; padding-right: 29px;}
+.floor-7 .jiantou a:last-child{ padding-top: 209px;}
+.floor-7 .bun{ margin-bottom: 32px;}
+/*floor-7 end*/
+.floor-8 .title{ margin-top: 75px;}
+.floor-8 .text{ margin-bottom: 58px;}
+.floor-8 .cc03 a{ padding-right: 33px;}
+.floor-8 .cc03 a:last-child{ padding-right: 0;}
+.floor-8 .cc04 a{ padding-right: 172px;}
+.floor-8 .cc04 a:last-child{ padding-right: 0; margin-left: 0;}
+.floor-8 .w{ position: relative;}
+.cc05{ position: absolute; bottom: 10px; left: 50px;}
+.floor-8 .crx02 a{ margin-right: 18px; margin-top: 22px;}
+.floor-8 .crx02 a:last-child{ margin-right: 0;}
+/*floor-8 end*/
+.floor-9{ background-color: #e8fbf7; margin-top: 48px;}
+.floor-9 .title{ padding-top: 58px;}
+.floor-9 .text{ margin-bottom: 76px;}
+.floor-9 .bun{ margin-bottom: 50px;}
+/*floor-9 end*/
+.floor-10{ margin-top: 63px;}
+.floor-10 .text{ margin-bottom: 40px;}
+.floor-10 .bun{ margin-bottom: 48px;}
+/*floor-10 end*/
+.floor-11{ background-image: url(../img/bg03.png); background-repeat: no-repeat; background-position: center top;}
+.floor-11 .title{ padding-top: 48px;}
+.floor-11 .text{ color: #fff; margin-bottom: 38px;}
+.floor-11 ul:first-of-type{ margin-bottom: 20px;}
+.floor-11 ul li{ margin-right: 23px;}
+.floor-11 ul li:last-child{ margin-right: 0;}
+.floor-11 .bun{ margin-bottom: 40px; margin-top: 24px;}
+/*floor-11 end*/
+.floor-12{ margin-top: 78px;}
+.floor-12 .text{ margin-bottom: 45px;}
+.floor-12 .bun{ margin-bottom: 53px;}
+/*floor-12 end*/
+.floor-13 .title{ margin-top: 10px;}
+.floor-13 .text{ margin-bottom: 33px;}
+.floor-13 .bun{ margin-bottom: 35px;}
+/*floor-13 end*/
+.floor-14{ background-color: #f5f5f5;}
+.floor-14 .title{ padding-top: 35px; padding-bottom: 37px;}
+.floor-14 ul{ margin-bottom: 21px;}
+.floor-14 ul li{ margin-right: 32px;}
+.floor-14 ul li:last-child{ margin-right: 0;}
+/*floor014 end*/
+.floor-15{ background-image: url(../img/bg04.png); background-repeat: no-repeat; background-position: center top; margin-top: 44px;}
+.floor-15 .title{ padding-top: 48px;}
+.floor-15 .text{ color: #fff; margin-bottom: 40px;}
+.floor-15 ul{ margin-bottom: 16px;}
+.floor-15 ul li{ margin-right: 12px;}
+.floor-15 ul li:last-child{ margin-right: 0;}
+.floor-15 .bun{ margin-bottom: 53px;}
+/*floor-15 end*/
+.floor-16{ background-image: url(../img/bg05.png); background-repeat: no-repeat; background-position: center top; margin-top: 43px; font-weight: bold;}
+.floor-16 p{ color: #fff; font-size: 62px; padding: 53px 0 59px 0;}
+.floor-16 p span{ color: #ffa500; font-size: 62px;}
+/*floor-16 end*/
+.floor-end .w{ margin-top: -10px;}
+.floor-end p,.floor-end a{ font-size: 14px; color: #1b1b1b;}
+.floor-end p:first-of-type{ display: inline-block;}
+.floor-end p:last-of-type{ margin-bottom: 66px;}
+/*end*/

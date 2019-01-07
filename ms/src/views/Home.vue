@@ -4,7 +4,6 @@
 		<img class="animated infinite w" src="../../public/img/banner.png" />
 		<demos>我的信息</demos>
 		<informations></informations>
-		<introductions></introductions>
 		<demos class='item1'>我的证书</demos>
 		<certificate></certificate>
 		<footers></footers>
@@ -31,7 +30,6 @@
 			Footers,
 			Demos,
 			Informations,
-			Introductions,
 			Certificate
 		},
 	}
